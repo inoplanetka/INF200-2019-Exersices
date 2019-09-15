@@ -1,7 +1,7 @@
 INF200 Exersices:
 =================
 
-FIRST_NAME SURNAME: Ivan Cherednikov
+FIRST_NAME SURNAME:
 -------------------
 
 This repository contains all the exersices written as part of the
