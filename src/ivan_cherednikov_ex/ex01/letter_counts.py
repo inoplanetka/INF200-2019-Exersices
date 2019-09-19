@@ -1,13 +1,14 @@
 def letter_freq(txt):
-    dict = {}
+    dict_ = {}
     txt = txt.lower()
     for n in txt:
-        keys = dict.keys()
+        keys = dict_.keys()
         if n in keys:
-            dict[n] += 1
+            dict_[n] += 1
         else:
-            dict[n] = 1
-    return dict
+            dict_[n] = 1
+    return dict_
+
 
 if __name__ == '__main__':
     text = input('Please enter text to analyse: ')

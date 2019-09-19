@@ -10,11 +10,14 @@ def guess_input():
         guess = int(input('Your guess: '))
     return guess
 
+
 def dice_roll():
     return dice(1, 6) + dice(1, 6)
 
-def compare_sum_with_guess(sum_eyes, your_guess):
-    return sum_eyes == your_guess
+
+def compare_sum_with_guess(sum_eyes_, your_guess_):
+    return sum_eyes_ == your_guess_
+
 
 if __name__ == '__main__':
 
